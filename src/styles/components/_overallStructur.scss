@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  &-question {
+    font-size: 6rem
+  }
+}
+
+.stickLeft {
+  display: flex;
+  @include middleY;
+  left: 0;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+
+.stickRight {
+  @include middleY;
+  right: 0;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.stickBottom {
+  @include middleX;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.stickTop {
+  @include middleX;
+  top: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3rem;
+  cursor: pointer;
+}

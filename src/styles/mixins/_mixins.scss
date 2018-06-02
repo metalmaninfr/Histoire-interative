@@ -1,0 +1,11 @@
+@mixin middleY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin middleX {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

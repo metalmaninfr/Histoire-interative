@@ -72,12 +72,13 @@ questionAnswer[2].onclick = function() {
   }
 };
 
+
+// ---------- FUNCTIONS
 function showFirstQuestion() {
   questionContainer[0].style.display = "block";
   questionContainer[1].style.display = "none";
   questionContainer[2].style.display = "none";
 }
-
 function showSecondeQuestion() {
   questionContainer[0].style.display = "none";
   questionContainer[1].style.display = "block";
@@ -88,15 +89,11 @@ function showthirdQuestion() {
   questionContainer[1].style.display = "none";
   questionContainer[2].style.display = "block";
 }
-
-
 function hideQuestions() {
   questionContainer[0].style.display = "none";
   questionContainer[1].style.display = "none";
   questionContainer[2].style.display = "block";
 }
-
-
 function hideBtn() {
   for (var i = 0; i < rightBtn.length; i++) {
     rightBtn[i].style.display = "none";

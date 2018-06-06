@@ -1,4 +1,3 @@
-import 'flexboxgrid';
 import './styles/styles.scss';
 
 const container = document.querySelectorAll('.container');
